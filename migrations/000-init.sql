@@ -1,0 +1,15 @@
+-- Up
+CREATE TABLE auth (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    password TEXT NOT NULL
+);
+
+CREATE TABLE categories (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL
+);
+
+
+-- Down
+DROP TABLE categories;
+DROP TABLE auth;

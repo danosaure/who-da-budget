@@ -1,0 +1,27 @@
+{
+  "name": "who-da-budget",
+  "version": "0.0.1",
+  "description": "Quicken-like app for learning everything",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:huuda_tran_quoininc/who-da-budget.git"
+  },
+  "keywords": [
+    "budget",
+    "finance",
+    "react"
+  ],
+  "author": "Hữu Ðà Trần <huuda.tran@gmail.com>",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/huuda_tran_quoininc/budget-me#readme",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "3.4.7",
+    "sqlite": "2.3.0"
+  }
+}
